@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dropbox.android.sample.ImageActivity">
+
+    <item android:id="@+id/action_share"
+            android:title="@string/action_share"
+            app:showAsAction="always"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+    <item android:id="@+id/action_round"
+        android:title="@string/action_round"
+        app:showAsAction="always"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+    <item android:id="@+id/action_flip"
+        android:title="@string/action_flip"
+        app:showAsAction="always"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+
+    <item android:id="@+id/action_reflect"
+        android:title="@string/action_reflect"
+        app:showAsAction="always"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+
+
+</menu>
+<!-- From: file:/E:/DBRoulette/app/src/main/res/menu/menu_image.xml -->
