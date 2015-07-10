@@ -1,17 +1,17 @@
 # Mobiquity_Challenge
 
-The main feature of this app include:
-1. Allow the user to authenticate with drop box credentials.
+The main feature of this app is that it:
+1. Allows the user to authenticate with drop box credentials.
 2. Allows the user to take a photo.
 3. Uploads the taken pictures to a directory
-4. List all the pictures that have been taken and view selected photo.
+4. Lists all the photos taken and displays selected photo.
 
-Some of the additional functionalities that has been included are as follows:-
-1. Record Latitude and Longitude (GPS Coordinates) of the photos.
-2. Using these GPS co-ordinates, obtain the location where the photo is taken.
+Some of the additional functionalities that have been included are as follows:-
+1. Records Latitude and Longitude (GPS Coordinates) of the photo.
+2. Using these GPS co-ordinates, obtain the location of the photo taken.
 3. Share the photo taken to friends on Whatsapp and Facebook.
 4. The title of the photo contains the city name along with the date when the photo is taken
-5. Allow user to apply special effects to the photos taken.
+5. Allows the user to apply special effects to the photos taken.
 
 ## Initial Setup
 1. Setup android studios.
@@ -25,5 +25,5 @@ Some of the additional functionalities that has been included are as follows:-
 4. A number of permissions are required. These include INTERNET,WRITE_EXTERNAL_STORAGE,ACCESS_COARSE_LOCATION,READ_PHONE_STATE,ACCESS_NETWORK_STATE,ACCESS_FINE_LOCATION.
 
 ##Brief Description
-Once the user authenticates with Dropbox cerdentials, the user has two options. The first option includes a button to upload a new photo by using the camera of the phone. The Second option takes the user to another activity the has a list of all the photos that have been taken by the user. This activity also have a menu that takes the user to the map activity. The activity displays the map along with the photos taken. Clicking any one of the list view item, opens up the image in an imageview. Now this photo can be shared using facebook and whatsapp. This option is present in the action bar of the image activity as a menu option. This menu also has other options where user can apply a few special effects to the photos that have been taken.These photos with special effects can also be shared. 
+Once the user authenticates with Dropbox cerdentials, he/she has two options. The first option allows the user to upload a new photo by using the camera of the phone. The Second option takes the user to another activity the displays a list of all the photos that have been taken by the user. This activity also has a menu option that takes the user to the map activity. This activity displays the map along with the photos taken. Clicking on any one of the list view item, opens up the image in an imageview. Now this photo can be shared using facebook, whatsapp or any other social networking app. This menu also has other options allowing the user to apply special effects to the photos that have been taken.These photos with special effects can also be shared. 
 
