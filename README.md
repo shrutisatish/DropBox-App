@@ -1,4 +1,4 @@
-# Mobiquity_Challenge
+# DropBox App
 
 The main feature of this app is that it:
 1. Allows the user to authenticate with drop box credentials.
